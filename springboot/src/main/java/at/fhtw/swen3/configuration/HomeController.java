@@ -1,4 +1,4 @@
-package at.fhtw.swen3;
+package at.fhtw.swen3.configuration;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

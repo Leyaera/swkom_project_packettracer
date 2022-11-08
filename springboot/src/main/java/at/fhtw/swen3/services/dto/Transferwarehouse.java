@@ -1,24 +1,12 @@
 package at.fhtw.swen3.services.dto;
 
-import java.net.URI;
-import java.util.Objects;
-import at.fhtw.swen3.services.dto.GeoCoordinate;
-import at.fhtw.swen3.services.dto.Hop;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonSubTypes;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.annotation.JsonTypeName;
-import org.openapitools.jackson.nullable.JsonNullable;
-import java.time.OffsetDateTime;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
 import io.swagger.v3.oas.annotations.media.Schema;
 
-
-import java.util.*;
 import javax.annotation.Generated;
+import javax.validation.constraints.NotNull;
+import java.util.Objects;
 
 /**
  * Transferwarehouse
@@ -26,7 +14,7 @@ import javax.annotation.Generated;
 
 
 @JsonTypeName("transferwarehouse")
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-11-08T05:54:55.883745Z[Etc/UTC]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-09-18T08:59:17.579754Z[Etc/UTC]")
 public class Transferwarehouse extends Hop {
 
   @JsonProperty("regionGeoJson")

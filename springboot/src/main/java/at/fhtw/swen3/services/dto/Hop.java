@@ -1,26 +1,13 @@
 package at.fhtw.swen3.services.dto;
 
-import java.net.URI;
-import java.util.Objects;
-import at.fhtw.swen3.services.dto.GeoCoordinate;
-import at.fhtw.swen3.services.dto.Transferwarehouse;
-import at.fhtw.swen3.services.dto.Truck;
-import at.fhtw.swen3.services.dto.Warehouse;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonSubTypes;
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
-import com.fasterxml.jackson.annotation.JsonTypeName;
-import org.openapitools.jackson.nullable.JsonNullable;
-import java.time.OffsetDateTime;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import com.fasterxml.jackson.annotation.*;
 import io.swagger.v3.oas.annotations.media.Schema;
 
-
-import java.util.*;
 import javax.annotation.Generated;
+import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Pattern;
+import java.util.Objects;
 
 /**
  * Hop
@@ -38,7 +25,7 @@ import javax.annotation.Generated;
 })
 
 @JsonTypeName("hop")
-@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-11-08T05:54:55.883745Z[Etc/UTC]")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2022-09-18T08:59:17.579754Z[Etc/UTC]")
 public class Hop {
 
   @JsonProperty("hopType")
