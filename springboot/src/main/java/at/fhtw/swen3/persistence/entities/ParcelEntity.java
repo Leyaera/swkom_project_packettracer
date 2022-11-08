@@ -1,3 +1,5 @@
+// test for ci cd
+
 package at.fhtw.swen3.persistence.entities;
 
 import javax.persistence.*;
