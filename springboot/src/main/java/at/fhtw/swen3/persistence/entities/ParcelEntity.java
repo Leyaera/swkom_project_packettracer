@@ -1,3 +1,5 @@
+// Pull-Test for CI CD
+
 package at.fhtw.swen3.persistence.entities;
 
 import javax.persistence.*;
